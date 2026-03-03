@@ -1,0 +1,71 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< io.reflectoring:demo >------------------------
+[INFO] Building demo 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ demo ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ demo ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 45 source files with javac [debug release 21] to target\classes
+[INFO] /C:/Users/HP/Documents/Disaster management and alert system/backend/demo/src/main/java/io/reflectoring/demo/client/NasaEonetClient.java: C:\Users\HP\Documents\Disaster management and alert system\backend\demo\src\main\java\io\reflectoring\demo\client\NasaEonetClient.java uses unchecked or unsafe operations.
+[INFO] /C:/Users/HP/Documents/Disaster management and alert system/backend/demo/src/main/java/io/reflectoring/demo/client/NasaEonetClient.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/HP/Documents/Disaster management and alert system/backend/demo/src/main/java/io/reflectoring/demo/service/DisasterEventService.java:[153,5] cannot find symbol
+  symbol:   class Map
+  location: class io.reflectoring.demo.service.DisasterEventService
+[ERROR] /C:/Users/HP/Documents/Disaster management and alert system/backend/demo/src/main/java/io/reflectoring/demo/service/DisasterEventService.java:[153,43] cannot find symbol
+  symbol:   variable Map
+  location: class io.reflectoring.demo.service.DisasterEventService
+[ERROR] /C:/Users/HP/Documents/Disaster management and alert system/backend/demo/src/main/java/io/reflectoring/demo/service/DisasterEventService.java:[179,68] cannot find symbol
+  symbol:   variable Map
+  location: class io.reflectoring.demo.service.DisasterEventService
+[ERROR] /C:/Users/HP/Documents/Disaster management and alert system/backend/demo/src/main/java/io/reflectoring/demo/service/DisasterEventService.java:[188,75] cannot find symbol
+  symbol:   variable Map
+  location: class io.reflectoring.demo.service.DisasterEventService
+[ERROR] /C:/Users/HP/Documents/Disaster management and alert system/backend/demo/src/main/java/io/reflectoring/demo/service/DisasterEventService.java:[212,75] cannot find symbol
+  symbol:   variable Map
+  location: class io.reflectoring.demo.service.DisasterEventService
+[ERROR] /C:/Users/HP/Documents/Disaster management and alert system/backend/demo/src/main/java/io/reflectoring/demo/service/DisasterEventService.java:[228,21] cannot find symbol
+  symbol:   variable Map
+  location: class io.reflectoring.demo.service.DisasterEventService
+[INFO] 6 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.869 s
+[INFO] Finished at: 2026-03-02T10:38:27+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project demo: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/HP/Documents/Disaster management and alert system/backend/demo/src/main/java/io/reflectoring/demo/service/DisasterEventService.java:[153,5] cannot find symbol
+[ERROR]   symbol:   class Map
+[ERROR]   location: class io.reflectoring.demo.service.DisasterEventService
+[ERROR] /C:/Users/HP/Documents/Disaster management and alert system/backend/demo/src/main/java/io/reflectoring/demo/service/DisasterEventService.java:[153,43] cannot find symbol
+[ERROR]   symbol:   variable Map
+[ERROR]   location: class io.reflectoring.demo.service.DisasterEventService
+[ERROR] /C:/Users/HP/Documents/Disaster management and alert system/backend/demo/src/main/java/io/reflectoring/demo/service/DisasterEventService.java:[179,68] cannot find symbol
+[ERROR]   symbol:   variable Map
+[ERROR]   location: class io.reflectoring.demo.service.DisasterEventService
+[ERROR] /C:/Users/HP/Documents/Disaster management and alert system/backend/demo/src/main/java/io/reflectoring/demo/service/DisasterEventService.java:[188,75] cannot find symbol
+[ERROR]   symbol:   variable Map
+[ERROR]   location: class io.reflectoring.demo.service.DisasterEventService
+[ERROR] /C:/Users/HP/Documents/Disaster management and alert system/backend/demo/src/main/java/io/reflectoring/demo/service/DisasterEventService.java:[212,75] cannot find symbol
+[ERROR]   symbol:   variable Map
+[ERROR]   location: class io.reflectoring.demo.service.DisasterEventService
+[ERROR] /C:/Users/HP/Documents/Disaster management and alert system/backend/demo/src/main/java/io/reflectoring/demo/service/DisasterEventService.java:[228,21] cannot find symbol
+[ERROR]   symbol:   variable Map
+[ERROR]   location: class io.reflectoring.demo.service.DisasterEventService
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
