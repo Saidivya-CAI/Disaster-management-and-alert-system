@@ -29,6 +29,8 @@ public class JwtAuthFilter extends OncePerRequestFilter {
             FilterChain filterChain) throws ServletException, IOException {
 
         final String authHeader = request.getHeader("Authorization");
+        logger.info("Request: " + request.getMethod() + " " + request.getRequestURI() + " - Auth Header: "
+                + (authHeader != null ? "Present" : "Missing"));
 
         // Skip if no Bearer token
         if (authHeader == null || !authHeader.startsWith("Bearer ")) {
@@ -37,6 +39,7 @@ public class JwtAuthFilter extends OncePerRequestFilter {
         }
 
         final String jwt = authHeader.substring(7);
+        logger.info("JWT detected, length: " + jwt.length());
 
         // Skip dummy tokens from old implementation
         if (jwt.startsWith("dummy-")) {
@@ -57,6 +60,10 @@ public class JwtAuthFilter extends OncePerRequestFilter {
                             userDetails.getAuthorities());
                     authToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
                     SecurityContextHolder.getContext().setAuthentication(authToken);
+                    logger.info(
+                            "Authenticated user: " + userEmail + " with authorities: " + userDetails.getAuthorities());
+                } else {
+                    logger.warn("JWT token invalid for user: " + userEmail);
                 }
             }
         } catch (Exception e) {

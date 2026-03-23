@@ -67,4 +67,13 @@ public class AdminDisasterController {
         String reason = body != null ? body.get("reason") : null;
         return ResponseEntity.ok(disasterEventService.rejectEvent(id, principal.getName(), reason, request));
     }
+
+    /** Direct broadcast an alert to citizens by admin */
+    @PutMapping("/{id}/broadcast")
+    public ResponseEntity<DisasterEventDTO> broadcastAlert(
+            @PathVariable Long id,
+            Principal principal,
+            HttpServletRequest request) {
+        return ResponseEntity.ok(disasterEventService.broadcastByAdmin(id, principal.getName(), request));
+    }
 }

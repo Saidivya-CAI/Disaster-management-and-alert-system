@@ -24,4 +24,32 @@ export class AdminDisasterService {
         const body = reason ? { reason } : {};
         return this.http.put<DisasterEvent>(`${this.apiUrl}/${id}/reject`, body);
     }
+
+    getMonthlyDisasterStats(): Observable<any[]> {
+        return this.http.get<any[]>(`${environment.apiUrl}/admin/analytics/disaster-stats`);
+    }
+
+    getRegionalPerformanceStats(): Observable<any[]> {
+        return this.http.get<any[]>(`${environment.apiUrl}/admin/analytics/regional-performance`);
+    }
+
+    getHighRiskAreas(): Observable<any[]> {
+        return this.http.get<any[]>(`${environment.apiUrl}/admin/analytics/risk-areas`);
+    }
+
+    getNotificationStats(): Observable<any> {
+        return this.http.get<any>(`${environment.apiUrl}/admin/analytics/notification-stats`);
+    }
+
+    getDisasterDistribution(): Observable<any> {
+        return this.http.get<any>(`${environment.apiUrl}/admin/analytics/disaster-distribution`);
+    }
+
+    getResponderPerformance(): Observable<any[]> {
+        return this.http.get<any[]>(`${environment.apiUrl}/admin/analytics/responder-performance`);
+    }
+
+    getSummaryStats(): Observable<any> {
+        return this.http.get<any>(`${environment.apiUrl}/admin/analytics/summary`);
+    }
 }

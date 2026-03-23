@@ -29,66 +29,71 @@ import java.util.List;
 @RequiredArgsConstructor
 public class SecurityConfig {
 
-    private final UserDetailsServiceImpl userDetailsService;
-    private final JwtAuthFilter jwtAuthFilter;
+        private final UserDetailsServiceImpl userDetailsService;
+        private final JwtAuthFilter jwtAuthFilter;
 
-    @Bean
-    public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
-    }
+        @Bean
+        public PasswordEncoder passwordEncoder() {
+                return new BCryptPasswordEncoder();
+        }
 
-    @Bean
-    public AuthenticationProvider authenticationProvider() {
-        DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
-        provider.setUserDetailsService(userDetailsService);
-        provider.setPasswordEncoder(passwordEncoder());
-        return provider;
-    }
+        @Bean
+        public AuthenticationProvider authenticationProvider() {
+                DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
+                provider.setUserDetailsService(userDetailsService);
+                provider.setPasswordEncoder(passwordEncoder());
+                return provider;
+        }
 
-    @Bean
-    public AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception {
-        return config.getAuthenticationManager();
-    }
+        @Bean
+        public AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception {
+                return config.getAuthenticationManager();
+        }
 
-    @Bean
-    public CorsConfigurationSource corsConfigurationSource() {
-        CorsConfiguration config = new CorsConfiguration();
-        config.setAllowedOriginPatterns(List.of("http://localhost:4200", "http://localhost:*"));
-        config.setAllowedMethods(List.of("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"));
-        config.setAllowedHeaders(List.of("*"));
-        config.setAllowCredentials(true);
-        config.setMaxAge(3600L);
-        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-        source.registerCorsConfiguration("/**", config);
-        return source;
-    }
+        @Bean
+        public CorsConfigurationSource corsConfigurationSource() {
+                CorsConfiguration config = new CorsConfiguration();
+                config.setAllowedOriginPatterns(List.of("http://localhost:4200", "http://localhost:*"));
+                config.setAllowedMethods(List.of("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"));
+                config.setAllowedHeaders(List.of("*"));
+                config.setAllowCredentials(true);
+                config.setMaxAge(3600L);
+                UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+                source.registerCorsConfiguration("/**", config);
+                return source;
+        }
 
-    @Bean
-    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        http
-                .csrf(csrf -> csrf.disable())
-                .cors(cors -> cors.configurationSource(corsConfigurationSource()))
-                .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-                .authenticationProvider(authenticationProvider())
-                .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class)
-                .authorizeHttpRequests(auth -> auth
-                        // Public auth endpoints
-                        .requestMatchers("/api/auth/**").permitAll()
-                        // Public disaster read endpoints
-                        .requestMatchers(HttpMethod.GET, "/api/disasters", "/api/disasters/**").permitAll()
-                        // Public citizen alerts (no auth needed to view)
-                        .requestMatchers(HttpMethod.GET, "/api/citizen/alerts").permitAll()
-                        // WebSocket endpoints
-                        .requestMatchers("/ws-disaster-alerts/**", "/ws/**", "/topic/**", "/app/**").permitAll()
-                        // Admin endpoints
-                        .requestMatchers("/api/admin/**").hasRole("ADMIN")
-                        // Responder endpoints
-                        .requestMatchers("/api/responder/**").hasAnyRole("RESPONDER", "ADMIN")
-                        // Citizen endpoints (request-help requires auth)
-                        .requestMatchers("/api/citizen/**").authenticated()
-                        // Everything else requires auth
-                        .anyRequest().authenticated());
+        @Bean
+        public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+                http
+                                .csrf(csrf -> csrf.disable())
+                                .cors(cors -> cors.configurationSource(corsConfigurationSource()))
+                                .sessionManagement(session -> session
+                                                .sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+                                .authenticationProvider(authenticationProvider())
+                                .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class)
+                                .authorizeHttpRequests(auth -> auth
+                                                // Profile endpoints require authentication (must come before the
+                                                // wildcard)
+                                                .requestMatchers("/api/auth/profile/**").authenticated()
+                                                .requestMatchers("/api/auth/me").authenticated()
+                                                .requestMatchers("/api/auth/**").permitAll()
+                                                .requestMatchers(HttpMethod.GET, "/api/disasters/**").permitAll()
+                                                .requestMatchers(HttpMethod.GET, "/api/citizen/alerts").permitAll()
+                                                .requestMatchers("/api/debug/**").permitAll()
+                                                .requestMatchers("/ws-disaster-alerts/**", "/ws/**", "/topic/**")
+                                                .permitAll()
+                                                // Admin endpoints should only be accessible to authenticated users
+                                                // with the ADMIN role. Previously these paths were opened to everyone
+                                                // which allowed anonymous PUT requests and resulted in confusing 403
+                                                // errors when a request was made without a valid token. Tighten the
+                                                // configuration so the security layer is exercised and the client gets
+                                                // a meaningful 401/403 if something is wrong with the authentication.
+                                                .requestMatchers("/api/admin/**").hasRole("ADMIN")
+                                                .requestMatchers("/api/responder/**").hasAnyRole("RESPONDER", "ADMIN")
+                                                .requestMatchers("/api/citizen/**").authenticated()
+                                                .anyRequest().authenticated());
 
-        return http.build();
-    }
+                return http.build();
+        }
 }

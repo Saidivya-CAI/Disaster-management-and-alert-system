@@ -6,6 +6,7 @@ import { ResponderDashboardComponent } from './dashboard/responder-dashboard.com
 import { CitizenDashboardComponent } from './dashboard/citizen-dashboard.component';
 import { DisasterMonitoringComponent } from './disaster-monitoring/disaster-monitoring.component';
 import { AdminVerificationComponent } from './admin-verification/admin-verification.component';
+import { AdminAnalyticsComponent } from './admin-analytics/admin-analytics.component';
 import { authGuard } from './guards/auth.guard';
 import { roleGuard } from './guards/role.guard';
 
@@ -38,6 +39,12 @@ export const routes: Routes = [
     {
         path: 'admin/verification',
         component: AdminVerificationComponent,
+        canActivate: [authGuard, roleGuard],
+        data: { role: 'ADMIN' }
+    },
+    {
+        path: 'admin/analytics',
+        component: AdminAnalyticsComponent,
         canActivate: [authGuard, roleGuard],
         data: { role: 'ADMIN' }
     },

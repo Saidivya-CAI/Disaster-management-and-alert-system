@@ -4,6 +4,7 @@ import io.reflectoring.demo.dto.DisasterEventDTO;
 import io.reflectoring.demo.entity.*;
 import io.reflectoring.demo.repository.DisasterEventRepository;
 import io.reflectoring.demo.repository.ProfileRepository;
+import io.reflectoring.demo.repository.RescueReportRepository;
 import io.reflectoring.demo.repository.RescueTaskRepository;
 import io.reflectoring.demo.repository.UserRepository;
 import org.junit.jupiter.api.BeforeEach;
@@ -30,6 +31,7 @@ class DisasterEventServiceTest {
     private UserRepository userRepository;
     private RescueTaskRepository rescueTaskRepository;
     private ProfileRepository profileRepository;
+    private RescueReportRepository rescueReportRepository;
     private AuditService auditService;
     private SimpMessagingTemplate messagingTemplate;
     private NotificationService notificationService;
@@ -46,6 +48,7 @@ class DisasterEventServiceTest {
         userRepository = mock(UserRepository.class);
         rescueTaskRepository = mock(RescueTaskRepository.class);
         profileRepository = mock(ProfileRepository.class);
+        rescueReportRepository = mock(RescueReportRepository.class);
         auditService = mock(AuditService.class);
         messagingTemplate = mock(SimpMessagingTemplate.class);
         notificationService = mock(NotificationService.class);
@@ -55,6 +58,7 @@ class DisasterEventServiceTest {
                 userRepository,
                 rescueTaskRepository,
                 profileRepository,
+                rescueReportRepository,
                 auditService,
                 messagingTemplate,
                 notificationService);
@@ -163,7 +167,7 @@ class DisasterEventServiceTest {
             return task;
         });
 
-        service.requestHelp("citizen@test.com", null, null, null, null);
+        service.requestHelp("citizen@test.com", null, null, null, null, "General", "Medium");
 
         verify(rescueTaskRepository, times(1)).save(argThat(task -> task.getStatus() == TaskStatus.PENDING &&
                 task.getDescription().contains("citizen@test.com")));

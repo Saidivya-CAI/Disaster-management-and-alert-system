@@ -64,18 +64,10 @@ public class DisasterEventController {
         return ResponseEntity.ok(dtos);
     }
 
-    /** Public endpoint – single alert by ID */
     @GetMapping("/{id}")
     public ResponseEntity<DisasterEventDTO> getAlertById(@PathVariable Long id) {
         return disasterEventRepository.findById(id)
                 .map(e -> ResponseEntity.ok(DisasterEventDTO.from(e)))
                 .orElse(ResponseEntity.notFound().build());
-    }
-
-    /** Authenticated endpoint – request help (creates a rescue task) */
-    @PostMapping("/help")
-    public ResponseEntity<String> requestHelp(Authentication authentication) {
-        disasterEventService.requestHelp(authentication.getName(), null, null, null, null);
-        return ResponseEntity.ok("Help requested successfully");
     }
 }

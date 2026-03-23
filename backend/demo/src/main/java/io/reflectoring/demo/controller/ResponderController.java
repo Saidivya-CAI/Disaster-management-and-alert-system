@@ -6,23 +6,27 @@ import io.reflectoring.demo.repository.RescueTaskRepository;
 import io.reflectoring.demo.repository.UserRepository;
 import io.reflectoring.demo.service.DisasterEventService;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.security.Principal;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/responder")
 @RequiredArgsConstructor
+@Slf4j
 @PreAuthorize("hasRole('RESPONDER') or hasRole('ADMIN')")
 public class ResponderController {
 
     private final RescueTaskRepository rescueTaskRepository;
     private final UserRepository userRepository;
     private final DisasterEventService disasterEventService;
+    private final io.reflectoring.demo.repository.EmergencyRequestRepository emergencyRequestRepository;
 
     /** Get tasks for responder: assigned to them OR verified and unassigned */
     @GetMapping("/tasks")
@@ -33,17 +37,17 @@ public class ResponderController {
 
         return userRepository.findByEmail(email).map(user -> {
             // Get already assigned tasks
-            List<RescueTask> myTasks = rescueTaskRepository.findByResponderId(user.getId());
+            List<RescueTask> assignedTasks = new ArrayList<>(rescueTaskRepository.findByResponderId(user.getId()));
 
-            // Also get verified tasks AND pending SOS tasks that haven't been assigned yet
-            List<RescueTask> unassignedTasks = rescueTaskRepository.findByStatusAndResponderIsNull(TaskStatus.VERIFIED);
-            unassignedTasks.addAll(rescueTaskRepository.findByStatusAndResponderIsNull(TaskStatus.PENDING));
+            List<RescueTask> unassignedSOS = new ArrayList<>(rescueTaskRepository.findByStatusAndResponderIsNull(TaskStatus.VERIFIED));
+            // Also include PENDING SOS for visibility
+            unassignedSOS.addAll(rescueTaskRepository.findByStatusAndResponderIsNull(TaskStatus.PENDING));
 
             // Combine both
-            myTasks.addAll(unassignedTasks);
+            assignedTasks.addAll(unassignedSOS);
 
             return ResponseEntity.ok(
-                    myTasks.stream()
+                    assignedTasks.stream()
                             .distinct() // Avoid duplicates if any
                             .map(AdminController.RescueTaskDTO::from)
                             .collect(Collectors.toList()));
@@ -101,6 +105,28 @@ public class ResponderController {
         return ResponseEntity.ok(alerts);
     }
 
+    // ─── Emergency request endpoints ───────────────────────────────────
+
+    @GetMapping("/assigned-requests")
+    public ResponseEntity<List<io.reflectoring.demo.entity.EmergencyRequest>> assignedRequests(
+            @RequestParam Long responderId) {
+        // naive filter; a full implementation would join on assignment
+        List<io.reflectoring.demo.entity.EmergencyRequest> all = emergencyRequestRepository.findAll();
+        List<io.reflectoring.demo.entity.EmergencyRequest> list = all.stream()
+                .filter(r -> r.getStatus() == io.reflectoring.demo.entity.RequestStatus.ASSIGNED)
+                .toList();
+        return ResponseEntity.ok(list);
+    }
+
+    @PutMapping("/request/{id}/complete")
+    public ResponseEntity<io.reflectoring.demo.entity.EmergencyRequest> completeRequest(
+            @PathVariable Long id) {
+        io.reflectoring.demo.entity.EmergencyRequest r = emergencyRequestRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Request not found"));
+        r.setStatus(io.reflectoring.demo.entity.RequestStatus.COMPLETED);
+        return ResponseEntity.ok(emergencyRequestRepository.save(r));
+    }
+
     /** Forward an alert to citizens (sets status to ACTIVE, broadcasts) */
     @PutMapping("/alerts/{id}/forward")
     public ResponseEntity<DisasterEventDTO> forwardToCitizen(@PathVariable Long id) {
@@ -109,8 +135,39 @@ public class ResponderController {
 
     /** Notify the citizen that help is on the way */
     @PostMapping("/tasks/{taskId}/notify-citizen")
-    public ResponseEntity<String> notifyCitizen(@PathVariable Long taskId) {
-        disasterEventService.notifyCitizenFromResponder(taskId);
-        return ResponseEntity.ok("Citizen notified.");
+    public ResponseEntity<?> notifyCitizen(
+            @PathVariable Long taskId,
+            @RequestBody NotifyCitizenRequest req,
+            Principal principal) {
+        String responderEmail = principal != null ? principal.getName() : "Responder";
+        disasterEventService.notifyCitizenFromResponder(taskId, responderEmail, req.getMessage());
+        return ResponseEntity.ok(java.util.Map.of("message", "Citizen notified."));
+    }
+
+    @lombok.Data
+    public static class NotifyCitizenRequest {
+        private String message;
+    }
+
+    /** Submit a status report for a rescue task */
+    @PostMapping("/tasks/{taskId}/report")
+    public ResponseEntity<AdminController.RescueReportDTO> submitReport(
+            @PathVariable Long taskId,
+            @RequestBody SubmitReportRequest req,
+            Principal principal) {
+        String email = principal != null ? principal.getName() : null;
+        log.info("Received report submission for task {} from {}. Status: {}. Images: {}",
+                taskId, email, (req.getStatusUpdate() != null ? "YES" : "NO"),
+                (req.getImageUrls() != null ? "YES" : "NO"));
+        RescueReport report = disasterEventService.submitRescueReport(taskId, email, req.getStatusUpdate(),
+                req.getImageUrls(), req.getMarkAsCompleted());
+        return ResponseEntity.ok(AdminController.RescueReportDTO.from(report));
+    }
+
+    @lombok.Data
+    public static class SubmitReportRequest {
+        private String statusUpdate;
+        private String imageUrls;
+        private Boolean markAsCompleted;
     }
 }

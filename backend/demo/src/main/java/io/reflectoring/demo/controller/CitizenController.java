@@ -50,6 +50,8 @@ public class CitizenController {
         private String locationName;
         private Double latitude;
         private Double longitude;
+        private String emergencyType;
+        private String citizenSeverity;
     }
 
     /** Request emergency help */
@@ -64,8 +66,10 @@ public class CitizenController {
         Double lon = request != null ? request.getLongitude() : null;
         String loc = request != null ? request.getLocationName() : null;
         String desc = request != null ? request.getDescription() : null;
+        String type = request != null ? request.getEmergencyType() : "General";
+        String severity = request != null ? request.getCitizenSeverity() : "Medium";
 
-        disasterEventService.requestHelp(email, lat, lon, loc, desc);
+        disasterEventService.requestHelp(email, lat, lon, loc, desc, type, severity);
         return ResponseEntity.ok("Help requested successfully! Responders have been notified.");
     }
 }

@@ -33,6 +33,8 @@ public class NotificationService {
 
         log.info("----------------------------------------------------------------");
         log.info(" [NOTIFICATION SYSTEM] Sending EMAIL/SMS to subscribers in region: {}", event.getRegion());
+        log.info(" [NOTIFICATION SYSTEM] BROADCASTING TO WHATSAPP: Group 'Alerts-{}'", event.getRegion());
+        log.info(" [NOTIFICATION SYSTEM] POSTING TO SOCIAL MEDIA: #DisasterAlert #{} #{}", event.getDisasterType(), event.getRegion());
         log.info(" SUBJECT: {}", subject);
         log.info(" BODY:\n{}", body);
         log.info("----------------------------------------------------------------");
@@ -42,6 +44,14 @@ public class NotificationService {
         log.info("----------------------------------------------------------------");
         log.info(" [NOTIFICATION SYSTEM] Sending TASK ASSIGNMENT to: {}", responderEmail);
         log.info(" TASK: {}", taskDescription);
+        log.info("----------------------------------------------------------------");
+    }
+
+    public void sendResponderToCitizenNotification(String citizenEmail, String responderEmail, String message) {
+        log.info("----------------------------------------------------------------");
+        log.info(" [NOTIFICATION SYSTEM] Message for Citizen ({}):", citizenEmail);
+        log.info(" FROM RESPONDER: {}", responderEmail);
+        log.info(" MESSAGE: {}", message);
         log.info("----------------------------------------------------------------");
     }
 }

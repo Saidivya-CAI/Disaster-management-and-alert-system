@@ -57,6 +57,7 @@ public class DisasterEvent {
     private String metadata;
 
     private LocalDateTime pendingSince;
+    private LocalDateTime resolvedAt;
 
     @Column(nullable = false)
     private LocalDateTime createdAt;

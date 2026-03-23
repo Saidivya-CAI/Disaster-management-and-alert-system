@@ -1,0 +1,180 @@
+<div class="admin-guard-container">
+    <!-- Top Header -->
+    <header class="dashboard-header">
+        <div class="header-left">
+            <h1>Admin Dashboard</h1>
+            <p class="current-date">{{ currentDate }}</p>
+        </div>
+        <div class="header-right">
+            <div class="status-pill" [class.online]="systemOnline">
+                <span class="dot"></span>
+                SYSTEM ONLINE
+            </div>
+        </div>
+    </header>
+
+    <div *ngIf="loading" class="loader-container">
+        <div class="loader"></div>
+        <p>Analyzing disaster data...</p>
+    </div>
+
+    <!-- Main Dashboard Grid -->
+    <div *ngIf="!loading && summaryStats" class="summary-row">
+        <div class="stat-card">
+            <div class="stat-icon res-ops">📈</div>
+            <div class="stat-data">
+                <h3>{{ summaryStats.totalRescueOps }}</h3>
+                <p>Total Rescue Ops</p>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon responders">💂</div>
+            <div class="stat-data">
+                <h3>{{ summaryStats.activeResponders }}</h3>
+                <p>Active Responders</p>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon alerts">🚨</div>
+            <div class="stat-data">
+                <h3>{{ summaryStats.activeAlerts }}</h3>
+                <p>Active Alerts</p>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon resolution">✅</div>
+            <div class="stat-data">
+                <h3>{{ summaryStats.resolutionRate | number:'1.1-1' }}%</h3>
+                <p>Resolution Rate</p>
+            </div>
+        </div>
+    </div>
+
+    <div *ngIf="!loading" class="dashboard-grid">
+        
+        <!-- Disaster Trends Card -->
+        <div class="dashboard-card">
+            <div class="card-header">
+                <div class="card-title">
+                    <span class="emoji">🌍</span>
+                    <h3>Disaster Trends (Monthly)</h3>
+                </div>
+                <div class="badge timeline">TIMELINE</div>
+            </div>
+            <div class="chart-container">
+                <canvas #disasterChart></canvas>
+            </div>
+        </div>
+
+        <!-- Regional Performance Card -->
+        <div class="dashboard-card">
+            <div class="card-header">
+                <div class="card-title">
+                    <span class="emoji">🏢</span>
+                    <h3>Regional Performance Comparison</h3>
+                </div>
+                <div class="badge geography">GEOGRAPHY</div>
+            </div>
+            <div class="chart-container">
+                <canvas #regionalChart></canvas>
+            </div>
+        </div>
+
+        <!-- Responder Performance Card -->
+        <div class="dashboard-card">
+            <div class="card-header">
+                <div class="card-title">
+                    <span class="emoji">🏆</span>
+                    <h3>Responder Performance</h3>
+                </div>
+                <div class="badge rankings">RANKINGS</div>
+            </div>
+            <div class="table-responsive">
+                <table class="ranking-table">
+                    <thead>
+                        <tr>
+                            <th>RESPONDER</th>
+                            <th>TASKS</th>
+                            <th>COMPLETION</th>
+                            <th>AVG RESP</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let row of responderPerformance.slice(0, 5)">
+                            <td class="name-col">
+                                <div class="avatar-sm">
+                                    {{ row.name.charAt(0) }}
+                                </div>
+                                {{ row.name }}
+                            </td>
+                            <td>{{ row.totalTasks }}</td>
+                            <td>
+                                <div class="completion-pill">
+                                    {{ row.completionRate | number:'1.0-0' }}%
+                                </div>
+                            </td>
+                            <td>{{ row.averageResponseTimeMinutes | number:'1.0-0' }}m</td>
+                        </tr>
+                        <tr *ngIf="responderPerformance.length === 0">
+                            <td colspan="4" class="no-data">No performance data.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- High-Risk Hotspots Card -->
+        <div class="dashboard-card">
+            <div class="card-header">
+                <div class="card-title">
+                    <span class="emoji">🔥</span>
+                    <h3>High-Risk Hotspots</h3>
+                </div>
+                <div class="badge security">SECURITY</div>
+            </div>
+            <div class="hotspots-content">
+                <div class="hotspot-list" *ngIf="riskAreas.length > 0">
+                    <div class="hotspot-item" *ngFor="let area of riskAreas.slice(0, 3)">
+                        <div class="hotspot-main">
+                            <span class="loc-name">{{ area.locationName }}</span>
+                            <span class="risk-tag" [ngClass]="getRiskLevel(area.riskScore).class">
+                                {{ getRiskLevel(area.riskScore).label }}
+                            </span>
+                        </div>
+                        <div class="hotspot-sub">
+                            {{ area.incidentCount }} Incidents · {{ area.averageSeverityScore | number:'1.1-1' }} Avg Sev
+                        </div>
+                    </div>
+                </div>
+                <div class="no-data-centered" *ngIf="riskAreas.length === 0">
+                    No risk data identified.
+                </div>
+            </div>
+        </div>
+
+        <!-- Strategic Insights Card -->
+        <div class="dashboard-card full-width">
+            <div class="card-header">
+                <div class="card-title">
+                    <span class="emoji">💡</span>
+                    <h3>Strategic Insights</h3>
+                </div>
+                <div class="badge insights">INSIGHTS</div>
+            </div>
+            <div class="insights-content">
+                <div class="insight-item">
+                    <span class="label">Priority Area:</span>
+                    <span class="value">{{ getBestRegion() }} shows optimal response times this month.</span>
+                </div>
+                <div class="insight-item">
+                    <span class="label">Alert Engagement:</span>
+                    <span class="value">{{ notificationStats?.engagementRate | number:'1.1-1' }}% of alerts were acknowledged by responders.</span>
+                </div>
+                <div class="insight-item">
+                    <span class="label">Risk Trend:</span>
+                    <span class="value">{{ riskAreas.length }} locations identified as high-priority zones based on severity.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

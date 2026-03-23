@@ -212,4 +212,20 @@ export class DisasterMonitoringComponent implements OnInit, OnDestroy {
         };
         return icons[type] || '⚠️';
     }
+
+    shareOnWhatsApp(alert: DisasterEvent) {
+        const text = encodeURIComponent(`🚨 EMERGENCY ALERT: ${alert.title || alert.disasterType}\nSeverity: ${alert.severity}\nLocation: ${alert.locationName || alert.region}\n\nStay safe!`);
+        window.open(`https://api.whatsapp.com/send?text=${text}`, '_blank');
+    }
+
+    shareOnTwitter(alert: DisasterEvent) {
+        const text = encodeURIComponent(`🚨 EMERGENCY: ${alert.title || alert.disasterType} in ${alert.locationName || alert.region}. [Severity: ${alert.severity}] #DisasterAlert #Emergency`);
+        window.open(`https://twitter.com/intent/tweet?text=${text}`, '_blank');
+    }
+
+    shareOnFacebook(alert: DisasterEvent) {
+        const url = encodeURIComponent(window.location.href);
+        const quote = encodeURIComponent(`🚨 EMERGENCY ALERT: ${alert.title || alert.disasterType} - ${alert.locationName || alert.region}`);
+        window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}&quote=${quote}`, '_blank');
+    }
 }

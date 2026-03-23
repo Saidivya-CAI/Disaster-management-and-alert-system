@@ -1,0 +1,3933 @@
+node.exe : - 
+Building...
+At line:1 char:1
++ & "C:\Program Files\
+nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (- Building   
+ ...:String) [], R    
+emoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+
+Application bundle generation failed. [29.090 seconds]
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:169:67:
+      169 ??? ...s" 
+(title)="Verify this 
+SOS request and 
+dispatch it" 
+(click)="...
+          ???         
+       ~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~
+
+
+X [ERROR] NG9: 
+Property 'Verify' 
+does not exist on 
+type 'AdminDashboardCo
+mponent'. [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:169:67:
+      169 ??? 
+...s="sm-btn success" 
+(title)="Verify this 
+SOS request and 
+dispat...
+          ???         
+                      
+ ~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:169:117:
+      169 ??? ...t" (c
+lick)="approveSOS(t.id
+, prioritySelect.value
+)">Verify</bu...
+          ???         
+       ~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:170:66:
+      170 ??? ...tn 
+danger" 
+(title)="Reject this 
+SOS request" 
+(click)="rejectSO...
+          ???         
+               ~~~~~~~
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:170:66:
+      170 ??? ...tn 
+danger" 
+(title)="Reject this 
+SOS request" 
+(click)="rejectSO...
+          ???         
+               ~~~~~~~
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: 
+Property 'Reject' 
+does not exist on 
+type 'AdminDashboardCo
+mponent'. [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:170:66:
+      170 ??? 
+...ss="sm-btn danger" 
+(title)="Reject this 
+SOS request" 
+(click)="...
+          ???         
+                      
+ ~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:170:100:
+      170 ??? 
+...eject this SOS 
+request" (click)="reje
+ctSOS(t.id)">Reject</b
+utton>
+          ???         
+                      
+      ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:170:100:
+      170 ??? 
+...eject this SOS 
+request" (click)="reje
+ctSOS(t.id)">Reject</b
+utton>
+          ???         
+                      
+      ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:171:143:
+      171 ??? ... 
+Google Maps" (click)="
+verifyLocation(t)" tar
+get="_blank">????...
+          ???         
+                  
+~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:171:143:
+      171 ??? ... 
+Google Maps" (click)="
+verifyLocation(t)" tar
+get="_blank">????...
+          ???         
+                  
+~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:172:142:
+      172 ??? ...ch 
+Google News" (click)="
+verifyNews(t)" 
+target="_blank">???? 
+N...
+          ???         
+                    
+~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:172:142:
+      172 ??? ...ch 
+Google News" (click)="
+verifyNews(t)" 
+target="_blank">???? 
+N...
+          ???         
+                    
+~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:186:49:
+      186 ??? 
+...e="text" [(ngModel)
+]="newTask.description
+" placeholder="e.g. 
+F...
+          ???         
+                 
+~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:186:49:
+      186 ??? 
+...e="text" [(ngModel)
+]="newTask.description
+" placeholder="e.g. 
+F...
+          ???         
+                 
+~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:186:49:
+      186 ??? 
+...e="text" [(ngModel)
+]="newTask.description
+" placeholder="e.g. 
+F...
+          ???         
+                 
+~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:186:49:
+      186 ??? 
+...e="text" [(ngModel)
+]="newTask.description
+" placeholder="e.g. 
+F...
+          ???         
+                 
+~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:192:53:
+      192 ??? 
+...type="number" [(ngM
+odel)]="newTask.respon
+derId" 
+placeholder="ID">
+          ???         
+                      
+~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:192:53:
+      192 ??? 
+...type="number" [(ngM
+odel)]="newTask.respon
+derId" 
+placeholder="ID">
+          ???         
+                      
+~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:192:53:
+      192 ??? 
+...type="number" [(ngM
+odel)]="newTask.respon
+derId" 
+placeholder="ID">
+          ???         
+                      
+~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:192:53:
+      192 ??? 
+...type="number" [(ngM
+odel)]="newTask.respon
+derId" 
+placeholder="ID">
+          ???         
+                      
+~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:196:51:
+      196 ??? 
+...pe="text" [(ngModel
+)]="newTask.location" 
+placeholder="Coordina.
+..
+          ???         
+                  
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:196:51:
+      196 ??? 
+...pe="text" [(ngModel
+)]="newTask.location" 
+placeholder="Coordina.
+..
+          ???         
+                  
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:196:51:
+      196 ??? 
+...pe="text" [(ngModel
+)]="newTask.location" 
+placeholder="Coordina.
+..
+          ???         
+                  
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:196:51:
+      196 ??? 
+...pe="text" [(ngModel
+)]="newTask.location" 
+placeholder="Coordina.
+..
+          ???         
+                  
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:200:52:
+      200 ??? 
+...lass="primary-btn" 
+(click)="createTask()"
+ [disabled]="isLoading
+">
+          ???         
+                      
+ ~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:200:52:
+      200 ??? 
+...lass="primary-btn" 
+(click)="createTask()"
+ [disabled]="isLoading
+">
+          ???         
+                      
+ ~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:200:78:
+      200 ??? 
+...lass="primary-btn" 
+(click)="createTask()"
+ [disabled]="isLoading
+">
+          ???         
+                      
+                      
+     ~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:200:78:
+      200 ??? 
+...lass="primary-btn" 
+(click)="createTask()"
+ [disabled]="isLoading
+">
+          ???         
+                      
+                      
+     ~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:201:17:
+      201 ???         
+         {{ isLoading 
+? 'Assigning...' : 
+'Create Task' }}
+          ???         
+         ~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:201:17:
+      201 ???         
+         {{ isLoading 
+? 'Assigning...' : 
+'Create Task' }}
+          ???         
+         ~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:219:23:
+      219 ???         
+           <tr 
+*ngFor="let t of 
+tasks">
+          ???         
+               ~~~~~~~
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:219:23:
+      219 ???         
+           <tr 
+*ngFor="let t of 
+tasks">
+          ???         
+               ~~~~~~~
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:220:25:
+      220 ???         
+             <td>#{{ 
+t.id }}</td>
+          ???         
+                 
+~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:220:25:
+      220 ???         
+             <td>#{{ 
+t.id }}</td>
+          ???         
+                 
+~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:221:25:
+      221 ???         
+             <td>{{ 
+t.description }}</td>
+          ???         
+                 
+~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:221:25:
+      221 ???         
+             <td>{{ 
+t.description }}</td>
+          ???         
+                 
+~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:223:30:
+      223 ??? ...     
+           <span 
+*ngIf="t.priority" cla
+ss="severity-badge...
+          ???         
+                 
+~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:223:30:
+      223 ??? ...     
+           <span 
+*ngIf="t.priority" cla
+ss="severity-badge...
+          ???         
+                 
+~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:223:83:
+      223 ??? 
+...-badge" [ngClass]="
+t.priority.toLowerCase
+()">{{ t.priority 
+}}<...
+          ???         
+              ~~~~~~~~
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:223:83:
+      223 ??? 
+...-badge" [ngClass]="
+t.priority.toLowerCase
+()">{{ t.priority 
+}}<...
+          ???         
+              ~~~~~~~~
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:223:109:
+      223 ??? ...dge" 
+[ngClass]="t.priority.
+toLowerCase()">{{ 
+t.priority }}</span>
+          ???         
+                      
+               
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:223:109:
+      223 ??? ...dge" 
+[ngClass]="t.priority.
+toLowerCase()">{{ 
+t.priority }}</span>
+          ???         
+                      
+               
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:224:30:
+      224 ???         
+                <span 
+*ngIf="!t.priority">??
+?</span>
+          ???         
+                      
+~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:224:30:
+      224 ???         
+                <span 
+*ngIf="!t.priority">??
+?</span>
+          ???         
+                      
+~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:226:25:
+      226 ???         
+             <td>{{ 
+t.responderId || 
+'Unassigned' }}</td>
+          ???         
+                 ~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:226:25:
+      226 ???         
+             <td>{{ 
+t.responderId || 
+'Unassigned' }}</td>
+          ???         
+                 ~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:228:61:
+      228 ??? 
+...s-badge" [ngClass]=
+"t.status.toLowerCase(
+)">{{ t.status 
+}}</span>
+          ???         
+               
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:228:61:
+      228 ??? 
+...s-badge" [ngClass]=
+"t.status.toLowerCase(
+)">{{ t.status 
+}}</span>
+          ???         
+               
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:228:85:
+      228 ??? 
+...s-badge" [ngClass]=
+"t.status.toLowerCase(
+)">{{ t.status 
+}}</span>
+          ???         
+                      
+                 
+~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:228:85:
+      228 ??? 
+...s-badge" [ngClass]=
+"t.status.toLowerCase(
+)">{{ t.status 
+}}</span>
+          ???         
+                      
+                 
+~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:231:30:
+      231 ??? ...     
+        <span *ngIf="t
+.acknowledgedAt" 
+style="color: #065...
+          ???         
+              ~~~~~~~~
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:231:30:
+      231 ??? ...     
+        <span *ngIf="t
+.acknowledgedAt" 
+style="color: #065...
+          ???         
+              ~~~~~~~~
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:231:97:
+      231 ??? 
+...nt-weight: 
+600;">{{ 
+t.acknowledgedAt | 
+date:'shortTime' 
+}}</span>
+          ???         
+            ~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:231:97:
+      231 ??? 
+...nt-weight: 
+600;">{{ 
+t.acknowledgedAt | 
+date:'shortTime' 
+}}</span>
+          ???         
+            ~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:232:30:
+      232 ???         
+                <span 
+*ngIf="!t.acknowledged
+At">???</span>
+          ???         
+                      
+~~~~~~~~~~~~~~~~~~~~~~
+~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:232:30:
+      232 ???         
+                <span 
+*ngIf="!t.acknowledged
+At">???</span>
+          ???         
+                      
+~~~~~~~~~~~~~~~~~~~~~~
+~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:241:15:
+      241 ???         
+  <div 
+*ngIf="activeTab === 
+'responders'" 
+class="fade-in">
+          ???         
+       ~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:241:15:
+      241 ???         
+  <div 
+*ngIf="activeTab === 
+'responders'" 
+class="fade-in">
+          ???         
+       ~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:245:55:
+      245 ??? 
+...="secondary-btn" (c
+lick)="loadResponders(
+)">Refresh 
+List</button>
+          ???         
+                     
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:245:55:
+      245 ??? 
+...="secondary-btn" (c
+lick)="loadResponders(
+)">Refresh 
+List</button>
+          ???         
+                     
+~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:257:23:
+      257 ???         
+           <tr 
+*ngFor="let r of 
+responders">
+          ???         
+               ~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:257:23:
+      257 ???         
+           <tr 
+*ngFor="let r of 
+responders">
+          ???         
+               ~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:258:25:
+      258 ???         
+             <td>#{{ 
+r.id }}</td>
+          ???         
+                 
+~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:258:25:
+      258 ???         
+             <td>#{{ 
+r.id }}</td>
+          ???         
+                 
+~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:259:25:
+      259 ???         
+             <td>{{ 
+r.email }}</td>
+          ???         
+                 
+~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:259:25:
+      259 ???         
+             <td>{{ 
+r.email }}</td>
+          ???         
+                 
+~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:268:15:
+      268 ???         
+  <div 
+*ngIf="activeTab === 
+'alerts'" 
+class="fade-in">
+          ???         
+       ~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:268:15:
+      268 ???         
+  <div 
+*ngIf="activeTab === 
+'alerts'" 
+class="fade-in">
+          ???         
+       ~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:271:42:
+      271 ??? ...class
+="critical-banner" *ng
+If="newAlert.severity 
+=== 'CRITICAL'">
+          ???         
+                   ~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:271:42:
+      271 ??? ...class
+="critical-banner" *ng
+If="newAlert.severity 
+=== 'CRITICAL'">
+          ???         
+                   ~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:279:54:
+      279 ??? 
+...="card" [class.crit
+ical-card]="newAlert.s
+everity === 
+'CRITICAL'">
+          ???         
+                      
+    ~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:279:54:
+      279 ??? 
+...="card" [class.crit
+ical-card]="newAlert.s
+everity === 
+'CRITICAL'">
+          ???         
+                      
+    ~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:287:51:
+      287 ??? ... 
+type="text" [(ngModel)
+]="searchQuery" 
+placeholder="Search 
+cit...
+          ???         
+                     
+~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:287:51:
+      287 ??? ... 
+type="text" [(ngModel)
+]="searchQuery" 
+placeholder="Search 
+cit...
+          ???         
+                     
+~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:287:51:
+      287 ??? ... 
+type="text" [(ngModel)
+]="searchQuery" 
+placeholder="Search 
+cit...
+          ???         
+                     
+~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:287:51:
+      287 ??? ... 
+type="text" [(ngModel)
+]="searchQuery" 
+placeholder="Search 
+cit...
+          ???         
+                     
+~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:287:116:
+      287 ??? 
+...eholder="Search 
+city or area..." (keyu
+p.enter)="performSearc
+h()">
+          ???         
+                      
+                     
+~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:287:116:
+      287 ??? 
+...eholder="Search 
+city or area..." (keyu
+p.enter)="performSearc
+h()">
+          ???         
+                      
+                     
+~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:288:58:
+      288 ??? 
+...secondary-btn" (cli
+ck)="performSearch()" 
+[disabled]="isSearchi.
+..
+          ???         
+                   
+~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:288:58:
+      288 ??? 
+...secondary-btn" (cli
+ck)="performSearch()" 
+[disabled]="isSearchi.
+..
+          ???         
+                   
+~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:288:87:
+      288 ??? 
+...econdary-btn" (clic
+k)="performSearch()" [
+disabled]="isSearching
+">
+          ???         
+                      
+                      
+   ~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:288:87:
+      288 ??? 
+...econdary-btn" (clic
+k)="performSearch()" [
+disabled]="isSearching
+">
+          ???         
+                      
+                      
+   ~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:289:21:
+      289 ???         
+             {{ 
+isSearching ? 
+'Searching...' : 
+'Search' }}
+          ???         
+             ~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:289:21:
+      289 ???         
+             {{ 
+isSearching ? 
+'Searching...' : 
+'Search' }}
+          ???         
+             ~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:294:54:
+      294 ??? 
+...ss="map-container 
+small-map" 
+*ngIf="searchQuery && 
+!isSearching">
+          ???         
+                      
+  ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:294:54:
+      294 ??? 
+...ss="map-container 
+small-map" 
+*ngIf="searchQuery && 
+!isSearching">
+          ???         
+                      
+  ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:302:29:
+      302 ???         
+              
+[src]="mapUrl">
+          ???         
+                     
+~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:302:29:
+      302 ???         
+              
+[src]="mapUrl">
+          ???         
+                     
+~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:304:43:
+      304 ??? ...s="ma
+p-caption">Location 
+Preview: {{ 
+newAlert.locationName 
+}}</p>
+          ???         
+           ~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:304:43:
+      304 ??? ...s="ma
+p-caption">Location 
+Preview: {{ 
+newAlert.locationName 
+}}</p>
+          ???         
+           ~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:310:49:
+      310 ??? 
+...ype="text" [(ngMode
+l)]="newAlert.title" 
+placeholder="e.g. 
+Flas...
+          ???         
+                   
+~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:310:49:
+      310 ??? 
+...ype="text" [(ngMode
+l)]="newAlert.title" 
+placeholder="e.g. 
+Flas...
+          ???         
+                   
+~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:310:49:
+      310 ??? 
+...ype="text" [(ngMode
+l)]="newAlert.title" 
+placeholder="e.g. 
+Flas...
+          ???         
+                   
+~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:310:49:
+      310 ??? 
+...ype="text" [(ngMode
+l)]="newAlert.title" 
+placeholder="e.g. 
+Flas...
+          ???         
+                   
+~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:316:41:
+      316 ???         
+            <select [(
+ngModel)]="newAlert.di
+sasterType">
+          ???         
+                      
+           
+~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:316:41:
+      316 ???         
+            <select [(
+ngModel)]="newAlert.di
+sasterType">
+          ???         
+                      
+           
+~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:316:41:
+      316 ???         
+            <select [(
+ngModel)]="newAlert.di
+sasterType">
+          ???         
+                      
+           
+~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:316:41:
+      316 ???         
+            <select [(
+ngModel)]="newAlert.di
+sasterType">
+          ???         
+                      
+           
+~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:325:41:
+      325 ??? ...  
+<select [(ngModel)]="n
+ewAlert.severity" (cha
+nge)="onSeverity...
+          ???         
+                  
+~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:325:41:
+      325 ??? ...  
+<select [(ngModel)]="n
+ewAlert.severity" (cha
+nge)="onSeverity...
+          ???         
+                  
+~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:325:41:
+      325 ??? ...  
+<select [(ngModel)]="n
+ewAlert.severity" (cha
+nge)="onSeverity...
+          ???         
+                  
+~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:325:41:
+      325 ??? ...  
+<select [(ngModel)]="n
+ewAlert.severity" (cha
+nge)="onSeverity...
+          ???         
+                  
+~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:325:70:
+      325 ??? ...ct [(
+ngModel)]="newAlert.se
+verity" (change)="onSe
+verityChange()">
+          ???         
+                      
+                  
+~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:325:70:
+      325 ??? ...ct [(
+ngModel)]="newAlert.se
+verity" (change)="onSe
+verityChange()">
+          ???         
+                      
+                  
+~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:337:52:
+      337 ??? ...t 
+type="text" [(ngModel)
+]="newAlert.region" 
+placeholder="Region">
+          ???         
+                      
+~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:337:52:
+      337 ??? ...t 
+type="text" [(ngModel)
+]="newAlert.region" 
+placeholder="Region">
+          ???         
+                      
+~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:337:52:
+      337 ??? ...t 
+type="text" [(ngModel)
+]="newAlert.region" 
+placeholder="Region">
+          ???         
+                      
+~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:337:52:
+      337 ??? ...t 
+type="text" [(ngModel)
+]="newAlert.region" 
+placeholder="Region">
+          ???         
+                      
+~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:341:52:
+      341 ??? 
+...="text" [(ngModel)]
+="newAlert.locationNam
+e" 
+placeholder="Speci...
+          ???         
+                
+~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:341:52:
+      341 ??? 
+...="text" [(ngModel)]
+="newAlert.locationNam
+e" 
+placeholder="Speci...
+          ???         
+                
+~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:341:52:
+      341 ??? 
+...="text" [(ngModel)]
+="newAlert.locationNam
+e" 
+placeholder="Speci...
+          ???         
+                
+~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:341:52:
+      341 ??? 
+...="text" [(ngModel)]
+="newAlert.locationNam
+e" 
+placeholder="Speci...
+          ???         
+                
+~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:347:40:
+      347 ??? 
+...extarea [(ngModel)]
+="newAlert.description
+" rows="4" 
+placeholde...
+          ???         
+                
+~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:347:40:
+      347 ??? 
+...extarea [(ngModel)]
+="newAlert.description
+" rows="4" 
+placeholde...
+          ???         
+                
+~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:347:40:
+      347 ??? 
+...extarea [(ngModel)]
+="newAlert.description
+" rows="4" 
+placeholde...
+          ???         
+                
+~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:347:40:
+      347 ??? 
+...extarea [(ngModel)]
+="newAlert.description
+" rows="4" 
+placeholde...
+          ???         
+                
+~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:351:26:
+      351 ??? ... [cla
+ss]="newAlert.severity
+ === 'CRITICAL' ? 
+'critical-broadca...
+          ???         
+     ~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:351:26:
+      351 ??? ... [cla
+ss]="newAlert.severity
+ === 'CRITICAL' ? 
+'critical-broadca...
+          ???         
+     ~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:352:26:
+      352 ???         
+         (click)="onBr
+oadcastClick()"
+          ???         
+                  
+~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:352:26:
+      352 ???         
+         (click)="onBr
+oadcastClick()"
+          ???         
+                  
+~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:353:29:
+      353 ???         
+         [disabled]="i
+sLoading">
+          ???         
+                     
+~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:353:29:
+      353 ???         
+         [disabled]="i
+sLoading">
+          ???         
+                     
+~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:354:17:
+      354 ??? ...     
+     {{ isLoading ? 
+'Broadcasting...' : 
+(newAlert.severit...
+          ???         
+     ~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:354:17:
+      354 ??? ...     
+     {{ isLoading ? 
+'Broadcasting...' : 
+(newAlert.severit...
+          ???         
+     ~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:360:37:
+      360 ??? 
+...ss="modal-overlay" 
+*ngIf="showConfirmDial
+og" 
+(click)="showConf...
+          ???         
+              ~~~~~~~~
+~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:360:37:
+      360 ??? 
+...ss="modal-overlay" 
+*ngIf="showConfirmDial
+og" 
+(click)="showConf...
+          ???         
+              ~~~~~~~~
+~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:360:72:
+      360 ??? ...y" *n
+gIf="showConfirmDialog
+" (click)="showConfirm
+Dialog = false">
+          ???         
+                      
+           ~~~~~~~~~~~
+~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:360:72:
+      360 ??? ...y" *n
+gIf="showConfirmDialog
+" (click)="showConfirm
+Dialog = false">
+          ???         
+                      
+           ~~~~~~~~~~~
+~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:361:44:
+      361 ??? ...     
+  <div 
+class="modal-box" (cli
+ck)="$event.stopPropag
+ation()">
+          ???         
+                      
+            ~~~~~~~~~~
+~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:361:44:
+      361 ??? ...     
+  <div 
+class="modal-box" (cli
+ck)="$event.stopPropag
+ation()">
+          ???         
+                      
+            ~~~~~~~~~~
+~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:366:24:
+      366 ???         
+        <strong>{{ 
+newAlert.title 
+}}</strong>
+          ???         
+                
+~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:366:24:
+      366 ???         
+        <strong>{{ 
+newAlert.title 
+}}</strong>
+          ???         
+                
+~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:367:22:
+      367 ???         
+        <span>{{ 
+newAlert.region 
+}}</span>
+          ???         
+              
+~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:367:22:
+      367 ???         
+        <span>{{ 
+newAlert.region 
+}}</span>
+          ???         
+              
+~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:370:55:
+      370 ??? 
+...econdary-btn" (clic
+k)="showConfirmDialog 
+= 
+false">Cancel</button>
+          ???         
+                  ~~~~
+~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:370:55:
+      370 ??? 
+...econdary-btn" (clic
+k)="showConfirmDialog 
+= 
+false">Cancel</button>
+          ???         
+                  ~~~~
+~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:371:62:
+      371 ??? 
+...confirm-btn" (click
+)="confirmBroadcast()"
+>Yes, Broadcast 
+Now</...
+          ???         
+                 
+~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:371:62:
+      371 ??? 
+...confirm-btn" (click
+)="confirmBroadcast()"
+>Yes, Broadcast 
+Now</...
+          ???         
+                 
+~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:376:15:
+      376 ???         
+  <div 
+*ngIf="message" 
+class="message" 
+[ngClass]="{'error...
+          ???         
+       ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:376:15:
+      376 ???         
+  <div 
+*ngIf="message" 
+class="message" 
+[ngClass]="{'error...
+          ???         
+       ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:376:58:
+      376 ??? 
+...ss="message" 
+[ngClass]="{'error': 
+isError, 'success': 
+!isError}">
+          ???         
+                   ~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:376:58:
+      376 ??? 
+...ss="message" 
+[ngClass]="{'error': 
+isError, 'success': 
+!isError}">
+          ???         
+                   ~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Reject this SOS 
+request] in C:/Users/H
+P/Documents/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@169:
+66 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:377:12:
+      377 ???         
+    {{ message }}
+          ???         
+    ~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: 
+Parser Error: 
+Unexpected token 
+'this' at column 8 in 
+[Verify this SOS 
+request and dispatch 
+it] in C:/Users/HP/Doc
+uments/Disaster 
+management and alert s
+ystem/frontend/src/app
+/dashboard/admin-dashb
+oard.component.ts@168:
+67 [plugin 
+angular-compiler]
+
+    src/app/dashboard/
+admin-dashboard.compon
+ent.ts:377:12:
+      377 ???         
+    {{ message }}
+          ???         
+    ~~~~~~~~~~~~~
+
+

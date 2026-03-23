@@ -1,0 +1,220 @@
+node.exe : - 
+Building...
+At line:1 char:1
++ & "C:\Program Files\
+nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (- Building   
+ ...:String) [], R    
+emoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+
+Initial chunk files   | Names         |  Raw size | Estimated transfer size
+main-SPKLOOVG.js      | main          | 462.66 kB |               106.18 kB
+styles-GBC2OMOS.css   | styles        | 240.93 kB |                23.13 kB
+polyfills-FFHMD2TL.js | polyfills     |  33.71 kB |                11.02 kB
+
+                      | Initial total | 737.30 kB |               140.33 kB
+
+Application bundle generation failed. [59.048 seconds]
+
+??? [WARNING] bundle 
+initial exceeded 
+maximum budget. 
+Budget 500.00 kB was 
+not met by 237.30 kB 
+with a total of 
+737.30 kB.
+
+
+??? [WARNING] angular:
+styles/component:css;2
+3f331a19d4a262abe98d00
+4b97e67fad54ab933b4653
+34728553bb6268bc21a;C:
+/Users/HP/Documents/Di
+saster management and 
+alert system/frontend/
+src/app/login/login.co
+mponent.ts exceeded 
+maximum budget. 
+Budget 2.00 kB was 
+not met by 1.92 kB 
+with a total of 3.92 
+kB.
+
+
+??? [WARNING] angular:
+styles/component:css;9
+f44e715619b6fd369c1645
+3bd2907d80dd2d3a8bf6c8
+0e47884e419955c7170;C:
+/Users/HP/Documents/Di
+saster management and 
+alert system/frontend/
+src/app/dashboard/admi
+n-dashboard.component.
+ts exceeded maximum 
+budget. Budget 2.00 
+kB was not met by 
+9.49 kB with a total 
+of 11.49 kB.
+
+
+??? [WARNING] angular:
+styles/component:css;b
+5b4ff4485af4c671fea526
+544668501dbabbad84ccd8
+3a34ddbdb9c42713476;C:
+/Users/HP/Documents/Di
+saster management and 
+alert system/frontend/
+src/app/dashboard/resp
+onder-dashboard.compon
+ent.ts exceeded 
+maximum budget. 
+Budget 2.00 kB was 
+not met by 7.01 kB 
+with a total of 9.01 
+kB.
+
+
+??? [WARNING] angular:
+styles/component:css;5
+1a20bfac20d0be6d588369
+a6fd6297b764ec400b4181
+fc4d8041ad8e56c1399;C:
+/Users/HP/Documents/Di
+saster management and 
+alert system/frontend/
+src/app/dashboard/citi
+zen-dashboard.componen
+t.ts exceeded maximum 
+budget. Budget 2.00 
+kB was not met by 
+7.48 kB with a total 
+of 9.48 kB.
+
+
+??? [WARNING] src/app/
+disaster-monitoring/di
+saster-monitoring.comp
+onent.css exceeded 
+maximum budget. 
+Budget 2.00 kB was 
+not met by 3.95 kB 
+with a total of 5.95 
+kB.
+
+
+??? [WARNING] src/app/
+admin-verification/adm
+in-verification.compon
+ent.css exceeded 
+maximum budget. 
+Budget 2.00 kB was 
+not met by 1.79 kB 
+with a total of 3.79 
+kB.
+
+
+??? [WARNING] Module 
+'@stomp/stompjs' used 
+by 'src/app/services/w
+ebsocket.service.ts' 
+is not ESM
+
+  CommonJS or AMD 
+dependencies can 
+cause optimization 
+bailouts.
+  For more 
+information see: https
+://angular.io/guide/bu
+ild#configuring-common
+js-dependencies
+
+
+??? [WARNING] 1 rules 
+skipped due to 
+selector errors:
+  
+.form-floating>~label 
+-> Did not expect 
+successive traversals.
+
+
+X [ERROR] angular:styl
+es/component:css;9f44e
+715619b6fd369c16453bd2
+907d80dd2d3a8bf6c80e47
+884e419955c7170;C:/Use
+rs/HP/Documents/Disast
+er management and 
+alert system/frontend/
+src/app/dashboard/admi
+n-dashboard.component.
+ts exceeded maximum 
+budget. Budget 4.00 
+kB was not met by 
+7.49 kB with a total 
+of 11.49 kB.
+
+
+X [ERROR] angular:styl
+es/component:css;b5b4f
+f4485af4c671fea5265446
+68501dbabbad84ccd83a34
+ddbdb9c42713476;C:/Use
+rs/HP/Documents/Disast
+er management and 
+alert system/frontend/
+src/app/dashboard/resp
+onder-dashboard.compon
+ent.ts exceeded 
+maximum budget. 
+Budget 4.00 kB was 
+not met by 5.01 kB 
+with a total of 9.01 
+kB.
+
+
+X [ERROR] angular:styl
+es/component:css;51a20
+bfac20d0be6d588369a6fd
+6297b764ec400b4181fc4d
+8041ad8e56c1399;C:/Use
+rs/HP/Documents/Disast
+er management and 
+alert system/frontend/
+src/app/dashboard/citi
+zen-dashboard.componen
+t.ts exceeded maximum 
+budget. Budget 4.00 
+kB was not met by 
+5.48 kB with a total 
+of 9.48 kB.
+
+
+X [ERROR] src/app/disa
+ster-monitoring/disast
+er-monitoring.componen
+t.css exceeded 
+maximum budget. 
+Budget 4.00 kB was 
+not met by 1.95 kB 
+with a total of 5.95 
+kB.
+
+

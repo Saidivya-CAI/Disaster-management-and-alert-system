@@ -110,25 +110,55 @@ public class AuthController {
     @PutMapping("/profile/location")
     public ResponseEntity<?> updateLocation(@RequestBody LocationRequest request, java.security.Principal principal) {
         if (principal == null) {
+            System.err.println("updateLocation: principal is null");
             return ResponseEntity.status(401).body(Map.of("error", "Unauthorized"));
         }
 
+        System.out.println("updateLocation: principal=" + principal.getName()
+                + ", lat=" + request.getLatitude() + ", lon=" + request.getLongitude());
+
         try {
             User user = userRepository.findByEmail(principal.getName())
-                    .orElseThrow(() -> new RuntimeException("User not found"));
+                    .orElseThrow(() -> new RuntimeException("User not found for email: " + principal.getName()));
 
+            // Find or create profile
             Profile profile = profileRepository.findByUserId(user.getId())
-                    .orElseThrow(() -> new RuntimeException("Profile not found"));
+                    .orElseGet(() -> {
+                        System.out.println(
+                                "updateLocation: No profile found for userId=" + user.getId() + ", creating one");
+                        Profile newProfile = Profile.builder()
+                                .user(user)
+                                .name(user.getEmail())
+                                .build();
+                        return profileRepository.save(newProfile);
+                    });
 
             profile.setLatitude(request.getLatitude());
             profile.setLongitude(request.getLongitude());
             profileRepository.save(profile);
 
+            System.out.println("updateLocation: success for userId=" + user.getId());
             return ResponseEntity.ok(Map.of("message", "Location updated successfully"));
         } catch (Exception e) {
+            System.err.println("updateLocation: FAILED - " + e.getMessage());
             e.printStackTrace();
             return ResponseEntity.status(500).body(Map.of("error", "Failed to update location: " + e.getMessage()));
         }
+    }
+
+    @GetMapping("/me")
+    public ResponseEntity<?> whoAmI(java.security.Principal principal) {
+        if (principal == null) {
+            return ResponseEntity.status(401).body(Map.of("error", "Not authenticated"));
+        }
+        User user = userRepository.findByEmail(principal.getName())
+                .orElseThrow(() -> new RuntimeException("User not found"));
+
+        Map<String, Object> response = new HashMap<>();
+        response.put("email", user.getEmail());
+        response.put("role", user.getRole().name());
+        response.put("authorities", user.getAuthorities());
+        return ResponseEntity.ok(response);
     }
 
     // DTO Classes

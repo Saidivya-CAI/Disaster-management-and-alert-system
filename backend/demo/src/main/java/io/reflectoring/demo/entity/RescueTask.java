@@ -22,6 +22,12 @@ public class RescueTask {
     @Column(nullable = false)
     private String description;
 
+    @Column(columnDefinition = "TEXT")
+    private String taskDescription;
+
+    private String emergencyType;
+    private String citizenSeverity;
+
     private String locationName;
     private Double latitude;
     private Double longitude;
@@ -29,6 +35,10 @@ public class RescueTask {
     @ManyToOne
     @JoinColumn(name = "responder_id")
     private User responder;
+
+    @ManyToOne
+    @JoinColumn(name = "disaster_event_id")
+    private DisasterEvent disasterEvent;
 
     @Enumerated(EnumType.STRING)
     private SeverityLevel priority;
@@ -46,6 +56,9 @@ public class RescueTask {
 
     private Boolean acknowledged = false;
     private LocalDateTime acknowledgedAt;
+    private LocalDateTime resolvedAt;
+
+    private Boolean reportSubmitted = false;
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
